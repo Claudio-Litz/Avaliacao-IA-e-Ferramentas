@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 270">
+  <defs>
+    <radialGradient id="heat"><stop stop-color="#fff36a"/><stop offset=".25" stop-color="#ff9f43"/><stop offset=".55" stop-color="#e94a63"/><stop offset="1" stop-color="#30295c"/></radialGradient>
+  </defs>
+  <rect width="680" height="270" rx="18" fill="#101a27"/>
+  <rect x="37" y="50" width="606" height="172" rx="12" fill="#152236" stroke="#32445c"/>
+  <path d="M65 139h224l45-35 45 35h236" fill="none" stroke="#70839a" stroke-width="7"/>
+  <ellipse cx="334" cy="133" rx="180" ry="58" fill="url(#heat)" opacity=".94"/>
+  <path d="M154 133h360" stroke="#fff1a6" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="28" y="35" fill="#a6b6c8" font-size="12" font-family="Arial" letter-spacing="2">MAPA HSV · ÁREA QUENTE ILUSTRATIVA</text>
+  <text x="80" y="205" fill="#d8e1ec" font-size="11" font-family="Arial">FRIA</text>
+  <text x="546" y="205" fill="#ffe18a" font-size="11" font-family="Arial">QUENTE</text>
+</svg>

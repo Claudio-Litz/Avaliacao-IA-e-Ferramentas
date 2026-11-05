@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 270">
+  <defs>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#3a4a5d"/><stop offset="1" stop-color="#1b2735"/></linearGradient>
+    <linearGradient id="bead"><stop stop-color="#ffb453"/><stop offset=".5" stop-color="#ffe1a8"/><stop offset="1" stop-color="#f58b48"/></linearGradient>
+  </defs>
+  <rect width="680" height="270" rx="18" fill="#101a27"/>
+  <path d="M0 191h680v79H0z" fill="url(#metal)"/>
+  <path d="M0 205h286l54-41 54 41h286" fill="none" stroke="#60758c" stroke-width="5"/>
+  <path d="M286 205q54-66 108 0" fill="none" stroke="url(#bead)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="330" cy="180" r="5" fill="#f4f6f8"/><circle cx="358" cy="180" r="4" fill="#f4f6f8"/>
+  <path d="M170 72h115l35 50-28 20-45-36h-77z" fill="#33485e" stroke="#6d849a" stroke-width="3"/>
+  <path d="M285 83l70 56-21 19-72-52z" fill="#53697e"/>
+  <path d="M344 150l19 15" stroke="#f2a64c" stroke-width="8"/>
+  <path d="M400 165h122" stroke="#29c7a2" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="526" y="169" fill="#6ce0c2" font-size="12" font-family="Arial">cordão</text>
+  <text x="28" y="38" fill="#a6b6c8" font-size="12" font-family="Arial" letter-spacing="2">ESQUEMA ÓPTICO · DEMONSTRAÇÃO</text>
+</svg>

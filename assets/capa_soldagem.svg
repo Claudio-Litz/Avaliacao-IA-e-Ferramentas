@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 850">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#26343d"/><stop offset=".68" stop-color="#18232a"/><stop offset="1" stop-color="#111a20"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#29343a"/><stop offset="1" stop-color="#11181c"/></linearGradient>
+    <radialGradient id="arc"><stop stop-color="#fff3bb"/><stop offset=".11" stop-color="#ffca68"/><stop offset=".32" stop-color="#ef763b" stop-opacity=".8"/><stop offset="1" stop-color="#ef763b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="jacket" x2="0" y2="1"><stop stop-color="#b7bab4"/><stop offset="1" stop-color="#737b79"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#abb4b2"/><stop offset=".5" stop-color="#6b7779"/><stop offset="1" stop-color="#39464a"/></linearGradient>
+    <linearGradient id="fade" x2="1" y2="0"><stop stop-color="#111a20" stop-opacity=".08"/><stop offset="1" stop-color="#111a20" stop-opacity=".2"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1500" height="850" fill="url(#wall)"/>
+  <g opacity=".38" stroke="#87918e" fill="none">
+    <path d="M0 138h1500M0 183h1500M90 0v465M385 0v465M680 0v465M975 0v465M1270 0v465" stroke-width="3"/>
+    <path d="M90 180l295 285M385 180l295 285M680 180l295 285M975 180l295 285" stroke-width="2" opacity=".45"/>
+    <path d="M116 0v240M133 0v240M411 0v240M428 0v240M706 0v240M723 0v240" stroke-width="7"/>
+  </g>
+  <rect y="460" width="1500" height="390" fill="url(#floor)"/>
+  <g opacity=".45" stroke="#99a3a1" stroke-width="5"><path d="M0 615h1500M0 756h1500M160 460l-75 390M500 460l-24 390M1030 460l50 390M1375 460l100 390"/></g>
+  <ellipse cx="870" cy="538" rx="205" ry="94" fill="url(#arc)" filter="url(#blur)"/>
+  <g stroke="#d9dfdc" stroke-width="5" fill="none" opacity=".8"><path d="M510 608h520l-58 75H565z"/><path d="M550 683v65M998 683v65M575 744h-55M1005 744h55"/></g>
+  <path d="M546 604h446l-57 44H591z" fill="url(#metal)" stroke="#c5cbc8" stroke-width="4"/>
+  <path d="M676 605q91-53 180 0" fill="none" stroke="#ed9752" stroke-width="10"/>
+  <g fill="#eaa45d"><circle cx="816" cy="550" r="7"/><circle cx="855" cy="517" r="5"/><circle cx="890" cy="555" r="6"/><circle cx="931" cy="487" r="4"/><circle cx="770" cy="494" r="4"/><circle cx="958" cy="533" r="3"/></g>
+  <g fill="none" stroke="#f5bc77" stroke-width="3" opacity=".85"><path d="M846 539l-62-112M864 530l-2-129M880 538l68-125M830 550l-139-48M891 555l161-37M858 549l40 92M838 536l-28-84M884 531l22-73"/></g>
+  <!-- Soldador com máscara e avental, em silhueta lateral -->
+  <g>
+    <path d="M1052 493c-5-71 15-122 67-148 43-22 92-6 110 27 16 29 8 60-8 78l-19 22 12 41-55 31-79-12z" fill="#242d31" stroke="#aab1ac" stroke-width="5"/>
+    <path d="M1157 359c43-18 74-2 77 28 2 18-9 34-31 46l-47-8z" fill="#596568" stroke="#d1d1c7" stroke-width="5"/>
+    <path d="M1158 373l61 11-16 32-50-9z" fill="#d78243"/>
+    <path d="M1047 475c-65 25-101 78-110 157l-12 150h302l-22-197c-9-73-47-112-113-122z" fill="url(#jacket)" stroke="#d0d1c9" stroke-width="5"/>
+    <path d="M1084 504l-96 83 35 44 84-67M1184 512l58 88-34 38-63-72" fill="#858d89" stroke="#c6cbc4" stroke-width="6"/>
+    <path d="M1108 534l-5 211M1067 564l-41 182M1163 572l33 174" stroke="#d5d7ce" stroke-width="4" opacity=".5"/>
+    <path d="M1027 742h63l-12 108h-67zM1154 742h64l14 108h-75z" fill="#20282b"/>
+    <path d="M987 846h98M1152 846h93" stroke="#e3ded2" stroke-width="9"/>
+  </g>
+  <g fill="#dba15e"><circle cx="1000" cy="592" r="4"/><circle cx="974" cy="621" r="3"/><circle cx="1014" cy="564" r="3"/><circle cx="945" cy="580" r="3"/></g>
+  <rect width="1500" height="850" fill="url(#fade)" opacity=".1"/>
+</svg>

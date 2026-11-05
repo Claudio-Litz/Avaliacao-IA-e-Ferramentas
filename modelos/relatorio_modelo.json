@@ -1,0 +1,96 @@
+{
+    "modelo": "Random Forest (Balanced)",
+    "recall_medio_falhas": 1.0,
+    "recall_por_classe": {
+        "Sem Falha": 0.9983611035236274,
+        "Porosidade na Solda": 1.0,
+        "Desvio Termico HAZ": 1.0,
+        "Sobrecarga de Corrente": 1.0,
+        "Vibracao Excessiva": 1.0
+    },
+    "matriz_confusao": [
+        [
+            3655,
+            6,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            610,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            209,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            19
+        ]
+    ],
+    "indicadores_oee": {
+        "disponibilidade_preditiva": 0.8628888888888889,
+        "qualidade_preditiva": 0.9535555555555556,
+        "performance_fixada": 0.95,
+        "oee_preditivo_global": 0.7816718691358026
+    },
+    "feature_importances": [
+        {
+            "nome": "temperatura_max_haz_c",
+            "importancia": 0.14916311006288388
+        },
+        {
+            "nome": "vibracao_mm_s",
+            "importancia": 0.11306178276877368
+        },
+        {
+            "nome": "corrente_solda_a",
+            "importancia": 0.10441389875581422
+        },
+        {
+            "nome": "anomalia_isolamento",
+            "importancia": 0.08734189531444236
+        },
+        {
+            "nome": "area_porosidade_px",
+            "importancia": 0.0826361456080656
+        },
+        {
+            "nome": "corrente_solda_media_30min",
+            "importancia": 0.07616361304081787
+        },
+        {
+            "nome": "pressao_gas_bar",
+            "importancia": 0.07480949670671475
+        },
+        {
+            "nome": "iem",
+            "importancia": 0.06428107873995469
+        },
+        {
+            "nome": "temperatura_solda_c",
+            "importancia": 0.0629493088698741
+        },
+        {
+            "nome": "pecas_defeituosas",
+            "importancia": 0.053572361960120884
+        }
+    ]
+}

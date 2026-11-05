@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sensores | VulcanTech</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css"></head>
+<body>
+  <header class="site-header"><a class="wordmark" href="/"><span class="wordmark-symbol">V</span><span>VULCANTECH<small>SMART METALS</small></span></a><nav class="page-nav"><a href="/dashboard">Visão geral</a><a class="selected" href="/sensors">Sensores</a><a href="/inspection">Inspeção de solda</a></nav><a class="back-link" href="/">← Capa</a><button class="theme-toggle" type="button" aria-label="Ativar tema escuro" title="Alternar tema">☾ <span>Tema</span></button></header>
+  <main class="page-wrap"><div class="page-title"><div><p class="kicker">ANÁLISE DE PROCESSO</p><h1>Sensores</h1><p>Consulte as leituras históricas e compare células de manufatura.</p></div><button id="downloadButton" class="secondary-button">Baixar dados filtrados</button></div>
+    <section class="filter-bar"><label>Célula<select id="cellFilter"><option value="all">Todas</option></select></label><label>Liga metálica<select id="alloyFilter"><option value="all">Todas</option></select></label><label>Variável<select id="sensorFilter"></select></label><label>Período<select id="periodFilter"><option value="all">Todo o período</option><option value="day">Últimas 24 horas</option><option value="week">Últimos 7 dias</option></select></label></section>
+    <section class="metrics-grid three-metrics"><article class="metric-card"><span>Leituras no filtro</span><strong id="sampleCount">—</strong><small>amostras</small></article><article class="metric-card"><span>Valor médio</span><strong id="averageValue">—</strong><small id="sensorUnit">sensor selecionado</small></article><article class="metric-card"><span>Faixa do sensor</span><strong id="sensorRange">—</strong><small>referência operacional do enunciado</small></article></section>
+    <section class="panel"><div class="panel-heading"><div><h2 id="trendTitle">Tendência ao longo do tempo</h2><p>Linhas coloridas representam as células filtradas.</p></div></div><div id="trendChart" class="trend-chart"></div><div id="chartLegend" class="chart-legend"></div></section>
+    <section class="panel sensor-table-panel"><div class="panel-heading"><div><h2>Leituras recentes</h2><p>Últimas 100 linhas da seleção atual.</p></div></div><div class="table-scroll"><table><thead><tr><th>Data e hora</th><th>Célula</th><th>Liga metálica</th><th id="sensorColumn">Sensor</th><th>IEM</th><th>Tipo de falha</th></tr></thead><tbody id="sensorTable"></tbody></table></div></section>
+    <footer class="page-footer"><span>Valores fora da faixa foram tratados no pipeline.</span><span>VulcanTech Smart Metals · Demonstração.</span></footer>
+  </main><script src="/static/sensors.js"></script>
+  <script src="/static/theme.js"></script>
+</body></html>
